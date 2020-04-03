@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MyWebpage</title>
+	<link rel="stylesheet" href="projectcss.css">
+</head>
+<body>
+	<header>
+		<div class="header-logo">
+			<h2><em><strong><u>ROAD SAFETY AWARENESS</u></strong></em></h2>
+		</div>
+		<div class="header-list">
+			<ul class="list-unordered">
+				<li class="list1">HOME</li>
+				<li class="list1">CONTACT US</li>
+				<li class="list1 logo">logo</li>
+				<li class="list1">MORE INFO</li>
+
+				<li class="list1">MORE QUIZES</li>
+			</ul>
+        </div>
+    </header>
+    <div class="main">
+    	<div class="instructions">
+    		<h4 class="heading-inst">INSTRUCTIONS:-</h4>
+                <ul class="inst-list">
+    				<li>1. Read all the questions carefully before submiting the quiz.</li>
+    				<li>2. A pop up window will appear after you click on the submit button which will show your scores.</li>
+    				<li>3. All the answers should be answered in small letters(NO USE OF CAPITALS AT ALL)</li>
+    				<li>4. Answers can not be changed once the submit button is clicked.</li>
+    			</ul>
+    	<form id="quiz" name="quiz">
+    		<p class="question">
+    			QUESTION1.<br>
+    			 IDENTIFY THE TRAFFIC SIGNAL GIVEN BELOW-
+    		<br>
+    		<img src="narrow-road-ahead-triangle__01.jpg">
+    		<br>
+    		<input id="answer1" type="text" name="question1">
+    		</p>
+    		<p class="question">
+    			QUESTION2.<br>
+    			 IDENTIFY THE TRAFFIC SIGNAL GIVEN BELOW-
+    		<br>
+    		<img src="u-turn-prohibited-sign.gif">
+    		<br>
+    		<input id="answer2" type="text" name="question2">
+    		</p>
+    		<p class="question">
+    			QUESTION3.<br>
+    			WHAT IS THE MINIMUM LEGAL DRIVING AGE?
+    		<br>
+    		<input id="answer3" type="text" name="question3">
+    		</p>
+    		<p class="question">
+    			QUESTION4.<br>
+    			YOU SHOULD ALWAYS SEAT YOUR CHILD IN FRONT OF AN AIRBAG, AS THAT WILL SAVE HIM/HER IN AN EVENT OF A CRASH.
+    			<br>
+    			(TRUE/FALSE) 
+    		<br>
+    		<input id="answer4" type="text" name="question4">
+    		</p>
+    		<p class="question">
+    			QUESTION5.
+    			<br>
+    			FILL IN THE BLANK-
+    			<br>
+    			PEDESTRIAN CAN CROSS THE ROAD AT___________.
+
+    		<br>
+    		<input id="answer5" type="text" name="question5">
+    		</p>
+
+    		<br>
+    		<button id="submit-test" value="SUBMITBUTTON" onclick="calculate();">SUBMIT</button>
+    		
+    	</form>
+    </div>
+    <script type="text/javascript" src="projectjava.js"></script>
+</body>
+</html>
